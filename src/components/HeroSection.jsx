@@ -38,8 +38,11 @@ export const HeroSection = () => {
                     <span className="text-primary"> ReactJS </span> &
                     <span className="text-primary"> TailWindCSS </span>
                     I also specialize in game development using 
-                    <span className="text-secondary1"> Unity </span>
-                    and I have a keen interest in anything related to 
+                    <span className="text-secondary1"> Unity</span>.
+                     My preferred programming language is 
+                    <span className="text-teritary2"> Java </span> &
+                    <span className="text-teritary2"> Python</span>,
+                     and I have a keen interest in anything related to 
                     <span className="text-teritary1"> Cybersecurity </span>
                 </p>
 

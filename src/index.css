@@ -11,6 +11,7 @@
   --color-secondary1: hsl(var(--secondary1));
   
   --color-teritary1: hsl(var(--teritary1));
+  --color-teritary2: hsl(var(--teritary2));
 
   --color-card: hsl(var(--card));
 
@@ -79,6 +80,7 @@
     --secondary1: 330 65% 65%;
 
     --teritary1: 0 74% 40%;
+    --teritary2: 25 80% 55%;
 
     --border: 214 32% 91%;
   }
@@ -95,6 +97,7 @@
     --secondary1: 330 70% 70%;
 
     --teritary1: 0 72% 45%;
+    --teritary2: 25 78% 60%;
 
     --border: 217 33% 20%;
   }
