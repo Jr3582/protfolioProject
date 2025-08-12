@@ -34,10 +34,13 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="mx-auto pt-4 max-w-3xl text-balance text-base md:text-xl leading-normal opacity-0 animate-fade-in-delay-3">
-                    I'm currently passionate about cybersecurity, 
-                    and creating games using Unity. 
-                    Outside of tech, I enjoy staying active through by playing basketball and working out at the gym. 
-                    From time to time I also love diving into strategy, sport, and tycoon-style games.<br></br>
+                    I specialize in front-end development using 
+                    <span className="text-primary"> ReactJS </span> &
+                    <span className="text-primary"> TailWindCSS </span>
+                    I also specialize in game development using 
+                    <span className="text-secondary"> Unity </span>
+                    and I have a keen interest in anything related to 
+                    <span className="text-teritary"> Cybersecurity </span>
                 </p>
 
                 <div className="pt-8 opacity-0 animate-fade-in-delay-4">
