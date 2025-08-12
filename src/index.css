@@ -8,9 +8,9 @@
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
 
-  --color-secondary: hsl(var(--secondary));
+  --color-secondary1: hsl(var(--secondary1));
   
-  --color-teritary: hsl(var(--teritary));
+  --color-teritary1: hsl(var(--teritary1));
 
   --color-card: hsl(var(--card));
 
@@ -76,9 +76,9 @@
     --primary: 250 47% 60%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 330 65% 65%;
+    --secondary1: 330 65% 65%;
 
-    --teritary: 0 74% 40%;
+    --teritary1: 0 74% 40%;
 
     --border: 214 32% 91%;
   }
@@ -92,9 +92,9 @@
     --primary: 250 65% 65%;
     --primary-foreground: 213 31% 91%;
 
-    --secondary: 330 70% 70%;
+    --secondary1: 330 70% 70%;
 
-    --teritary: 0 72% 45%;
+    --teritary1: 0 72% 45%;
 
     --border: 217 33% 20%;
   }

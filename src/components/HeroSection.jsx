@@ -28,7 +28,7 @@ export const HeroSection = () => {
                     <span className ="text-primary opacity-0 animate-fade-in-delay-1"> Jimmy </span>
                     <span className ="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Ren <br></br> </span>
                     <span className = "pt-3 block opacity-0 animate-fade-in-delay-2">
-                        I am a <span className = "font-semibold text-secondary">{age.toFixed(8)}</span>
+                        I am a <span className = "font-semibold text-secondary1">{age.toFixed(8)}</span>
                         {" "}Year-Old Developer<br></br>
                     </span>
                 </h1>
@@ -38,9 +38,9 @@ export const HeroSection = () => {
                     <span className="text-primary"> ReactJS </span> &
                     <span className="text-primary"> TailWindCSS </span>
                     I also specialize in game development using 
-                    <span className="text-secondary"> Unity </span>
+                    <span className="text-secondary1"> Unity </span>
                     and I have a keen interest in anything related to 
-                    <span className="text-teritary"> Cybersecurity </span>
+                    <span className="text-teritary1"> Cybersecurity </span>
                 </p>
 
                 <div className="pt-8 opacity-0 animate-fade-in-delay-4">

@@ -71,7 +71,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold textlg"> Project Management</h4>
                                 <p className="text-muted-foreground">
-                                    Led a team in developing Unity game projects, 
+                                    Led teams in developing Unity game projects, 
                                     managing tasks and progress with GitHub.
                                 </p>
                             </div>
