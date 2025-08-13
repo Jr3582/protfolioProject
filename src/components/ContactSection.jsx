@@ -124,7 +124,7 @@ export const ContactSection = () => {
                         </div>
                     </div>
                     
-                    <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSubmit}>
+                    <div className="bg-card p-8 rounded-lg shadow-xs">
                         <h3 className="text-2xl font-semibold"> Send a Message</h3>
 
                         <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
