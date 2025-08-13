@@ -13,7 +13,7 @@ export const ContactSection = () => {
     const {toast} = useToast();
     const formRef = useRef(null);
     const [sending, setSending] = useState(false);
-    
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -31,11 +31,12 @@ export const ContactSection = () => {
         .sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PUBLIC_KEY)
         .then(() => {
             toast({
-            title: "Message sent!",
-            description: "Thank you for your message. I'll get back to you soon.",
+                title: "Message sent!",
+                description: "Thank you for your message. I'll get back to you soon.",
             });
             formRef.current?.reset();
-        })
+            setSending(false);
+        }, 1500)
         .catch((err) => {
             console.error(err);
             toast({
