@@ -20,7 +20,7 @@ const skills = [
     // Tools
     {name: "Git/GitHub", level: 95, category: "tools"},
     {name: "VS Code", level: 95, category: "tools"},
-    {name: "Splunk", level: 75, category: "tools"},
+    {name: "Splunk", level: 70, category: "tools"},
     {name: "Unity", level: 90, category: "tools"},
     {name: "IntelliJ", level: 90, category: "tools"},
     {name: "Figma", level: 80, category: "tools"},

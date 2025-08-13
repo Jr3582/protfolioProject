@@ -19,7 +19,7 @@ export const AboutSection = () => {
                     </p>
 
                     <p className="text-muted-foreground">
-                        My passion began with a curiosity about how games work behind the scenes,  
+                        My passion with game dev began with a curiosity about how games work behind the scenes,  
                         and grew into exploring how I could secure and improve my own computer systems against online threats.
                     </p>
 
