@@ -8,8 +8,8 @@ const projects = [
         description: "Landing page for Vanguard Communication Clearing House, made with React, Node.js, Material UI, PostgreSQL, and Python.",
         image: "/projects/vanguardComClearingHouse1.png",
         tags: ["Material UI", "React", "Node.js"],
-        demoUrl: "#",
-        githubUrl: "#",
+        demoUrl: "NotFound",
+        githubUrl: "NotFound",
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const projects = [
         description: "Fading Light title page, the game was made using the Unity game engine, and coded in C#. Collaborated in a team of 3. Developed over a 5-week period.",
         image: "/projects/FadingLight.png",
         tags: ["Unity", "C#", "Game"],
-        demoUrl: "#",
+        demoUrl: "NotFound",
         githubUrl: "https://github.com/Jr3582/TheElevator",
     }
     
