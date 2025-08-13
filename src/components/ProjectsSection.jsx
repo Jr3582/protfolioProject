@@ -26,7 +26,7 @@ const projects = [
         description: "Fading Light title page, the game was made using the Unity game engine, and coded in C#. Collaborated in a team of 3. Developed over a 5-week period.",
         image: "/projects/FadingLight.png",
         tags: ["Unity", "C#", "Game"],
-        demoUrl: "NotFound",
+        demoUrl: "https://unitygame-te.s3.us-east-1.amazonaws.com/index.html",
         githubUrl: "https://github.com/Jr3582/TheElevator",
     }
     
