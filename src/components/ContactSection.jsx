@@ -77,8 +77,8 @@ export const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h4 className="font-medium flex flex-col justify-center text-left"> Email:</h4>
-                                    <a href="mailto:jimbro0o.dev@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                                        jimbro0o.dev@gmail.com
+                                    <a href="mailto:jimmyren590@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                                        jimmyren590@gmail.com
                                     </a>
                                 </div>
                             </div>
