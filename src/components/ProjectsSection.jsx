@@ -25,7 +25,7 @@ const projects = [
         title: "ChasingPRs",
         description: "ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost",
         image: "/projects/chasingPRs.png",
-        tags: ["Unity", "C#", "Game"],
+        tags: ["React", "TailwindCSS", "Math"],
         demoUrl: "https://chasing-prs.vercel.app/",
         githubUrl: "https://github.com/Jr3582/ChasingPRs",
     }
