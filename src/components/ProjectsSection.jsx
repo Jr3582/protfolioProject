@@ -22,12 +22,12 @@ const projects = [
     },
     {
         id: 3,
-        title: "Fading Light Game",
-        description: "Fading Light title page, the game was made using the Unity game engine, and coded in C#. Collaborated in a team of 3. Developed over a 5-week period.",
-        image: "/projects/FadingLight.png",
+        title: "ChasingPRs",
+        description: "ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost",
+        image: "/projects/chasingPRs.png",
         tags: ["Unity", "C#", "Game"],
-        demoUrl: "https://unitygame-te.s3.us-east-1.amazonaws.com/index.html",
-        githubUrl: "https://github.com/Jr3582/TheElevator",
+        demoUrl: "https://chasing-prs.vercel.app/",
+        githubUrl: "https://github.com/Jr3582/ChasingPRs",
     }
     
 ]
