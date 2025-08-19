@@ -51,8 +51,8 @@ const projects = [
         id: 6,
         title: "2D Shooter",
         description: "The landing page for 2D top down shooter. Collaborated with 3 other individuals, deployed on Fly.io and supports multiplayer functionality.",
-        image: "/projects/FadingLight.png",
-        tags: ["Game", "Phaser Framework", "Collaboration"],
+        image: "/projects/2dShooterLandingPage.png",
+        tags: ["Game", "Phaser", "Collaboration"],
         demoUrl: "https://cs375shooterproject.fly.dev/",
         githubUrl: "https://github.com/Jr3582/CS375_Project",
     }
