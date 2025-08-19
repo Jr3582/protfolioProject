@@ -5,10 +5,10 @@ const projects = [
     {
         id: 1,
         title: "Vanguard Communication Clearing House",
-        description: "Landing page for Vanguard Communication Clearing House, made with React, Node.js, Material UI, PostgreSQL, and Python. (Github not available, and link for demo doesn't work)",
+        description: "Landing page for Vanguard Communication Clearing House, made with React, Node.js, Material UI, PostgreSQL, and Python. (Github not available)",
         image: "/projects/vanguardComClearingHouse1.png",
         tags: ["Material UI", "React", "Node.js"],
-        demoUrl: "NotFound",
+        demoUrl: "https://1513041.mediaspace.kaltura.com/id/1_fp9vkw3s",
         githubUrl: "NotFound",
     },
     {
