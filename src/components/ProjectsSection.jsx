@@ -32,7 +32,7 @@ const projects = [
     {
         id: 4,
         title: "Llama Chat Bot",
-        description: "Hosted Llama chat bot using a LLM, built with react, vite, and TailwindCSS",
+        description: "Hosted Llama chat bot using a LLM, built with react, vite, and TailwindCSS and hosted on Vercel",
         image: "/projects/LlamachatBot.png",
         tags: ["AI", "React", "Llama"],
         demoUrl: "https://chat-bot-khaki-one.vercel.app/",
