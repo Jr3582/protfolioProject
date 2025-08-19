@@ -23,11 +23,38 @@ const projects = [
     {
         id: 3,
         title: "ChasingPRs",
-        description: "ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost",
+        description: "The landing page for ChasingPRs. ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost.",
         image: "/projects/chasingPRs.png",
         tags: ["React", "TailwindCSS", "Math"],
         demoUrl: "https://chasing-prs.vercel.app/",
         githubUrl: "https://github.com/Jr3582/ChasingPRs",
+    },
+    {
+        id: 4,
+        title: "Llama Chat Bot",
+        description: "Hosted Llama chat bot using a LLM, built with react, vite, and TailwindCSS",
+        image: "/projects/LlamachatBot.png",
+        tags: ["AI", "React", "Llama"],
+        demoUrl: "https://chat-bot-khaki-one.vercel.app/",
+        githubUrl: "https://github.com/Jr3582/chatBot",
+    },
+    {
+        id: 5,
+        title: "Fading Light",
+        description: "The tile screen for Fading Light, a 2D Unity platformer game, collaborated with 2 other individuals, deployed on to a AWS S3 Bucket",
+        image: "/projects/FadingLight.png",
+        tags: ["Unity", "AWS", "Game"],
+        demoUrl: "https://unitygame-te.s3.us-east-1.amazonaws.com/index.html",
+        githubUrl: "https://github.com/Jr3582/TheElevator",
+    },
+    {
+        id: 6,
+        title: "2D Shooter",
+        description: "The landing page for 2D top down shooter. Collaborated with 3 other individuals, deployed on Fly.io and supports multiplayer functionality.",
+        image: "/projects/FadingLight.png",
+        tags: ["Game", "Phaser Framework", "Collaboration"],
+        demoUrl: "https://cs375shooterproject.fly.dev/",
+        githubUrl: "https://github.com/Jr3582/CS375_Project",
     }
     
 ]
