@@ -1,0 +1,83 @@
+const certificates = [
+    {
+        id: 1,
+        title: "Comptia Security+ Certificate",
+        doa: "09/22/2025",
+        exp: "09/22/2028",
+        image: "/certificates/comptiaCert.jpg",
+        link: "Comptia Security+",
+        code: "MTGHEW0Q014Q5MHJ",
+        url: "https://www.certmetrics.com/comptia/public/verification.aspx/"
+    },
+    {
+        id: 2,
+        title: "Google Cybersecurity Certificate",
+        doa: "07/08/2025",
+        exp: "NA",
+        image: "/certificates/googleCert.jpg",
+        link: "Google Cybersecurity",
+        url: "https://www.coursera.org/account/accomplishments/professional-cert/IEFWN5W54QDO"
+    },
+    {
+        id: 3,
+        title: "Udemy Angular Essentials Certificate ",
+        doa: "10/30/2023",
+        exp: "NA",
+        image: "/certificates/angularCert.jpg",
+        link: "Udemy Agular Essentials",
+        url: "https://www.udemy.com/certificate/UC-5f5608c7-5d39-40db-a29e-d9445ffc9e77/"
+    }
+];
+
+export const CertificateSection = () => {
+    return (
+        <section id="certificates" className="py-24 px-4 relative">
+            <div className="container mx-auto max-w-5xl">
+                <h2 className="text-3xl md:-text-4xl font-bold mb-4 text-center">
+                    {" "}
+                    Featured<span className="text-primary"> Certificates </span>
+                </h2>
+
+                <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+                    Here is a collection of my recent certificates that I've obtained!
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {certificates.map((certificate, key) => (
+                        <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+                            <div className="h-48 overflow-hidden">
+                                {/* Certificate Image*/}
+                                <img 
+                                    src={certificate.image} 
+                                    alt={certificate.title} 
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                />
+                            </div>
+
+                            <div className="p-6">
+                                {/* Certificate Name*/}
+                                <h3 className="text-xl font-semibold mb-2">
+                                    {certificate.title}
+                                </h3>
+                                <p className="text-muted-foreground text-sm">
+                                    <strong>DOA:</strong> {certificate.doa}
+                                </p>
+                                <p className="text-muted-foreground text-sm mb-4">
+                                    <strong>EXP:</strong> {certificate.exp}
+                                </p>
+                                {certificate.code && (
+                                    <p className="text-muted-foreground text-sm mb-4">
+                                        <strong>Code:</strong> {certificate.code}
+                                </p>
+                                )}
+                                <p className="text-muted-foreground text-sm mb-4">
+                                    <strong>Hyperlink:</strong> <a href={certificate.url} className="text-teritary1" target="_blank">{certificate.link}</a>
+                                </p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+};
