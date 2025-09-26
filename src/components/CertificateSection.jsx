@@ -1,3 +1,5 @@
+import { ExternalLink } from "lucide-react";
+
 const certificates = [
     {
         id: 1,
@@ -5,7 +7,6 @@ const certificates = [
         doa: "09/22/2025",
         exp: "09/22/2028",
         image: "/certificates/comptiaCert.jpg",
-        link: "Comptia Security+",
         code: "MTGHEW0Q014Q5MHJ",
         url: "https://www.certmetrics.com/comptia/public/verification.aspx/"
     },
@@ -13,18 +14,16 @@ const certificates = [
         id: 2,
         title: "Google Cybersecurity Certificate",
         doa: "07/08/2025",
-        exp: "NA",
+        exp: "N\A",
         image: "/certificates/googleCert.jpg",
-        link: "Google Cybersecurity",
         url: "https://www.coursera.org/account/accomplishments/professional-cert/IEFWN5W54QDO"
     },
     {
         id: 3,
         title: "Udemy Angular Essentials Certificate ",
         doa: "10/30/2023",
-        exp: "NA",
+        exp: "N\A",
         image: "/certificates/angularCert.jpg",
-        link: "Udemy Agular Essentials",
         url: "https://www.udemy.com/certificate/UC-5f5608c7-5d39-40db-a29e-d9445ffc9e77/"
     }
 ];
@@ -65,14 +64,16 @@ export const CertificateSection = () => {
                                 <p className="text-muted-foreground text-sm mb-4">
                                     <strong>EXP:</strong> {certificate.exp}
                                 </p>
-                                {certificate.code && (
-                                    <p className="text-muted-foreground text-sm mb-4">
-                                        <strong>Code:</strong> {certificate.code}
-                                </p>
-                                )}
                                 <p className="text-muted-foreground text-sm mb-4">
-                                    <strong>Hyperlink:</strong> <a href={certificate.url} className="text-teritary1" target="_blank">{certificate.link}</a>
+                                    <strong>Code:</strong> {certificate.code}
                                 </p>
+
+                                <a 
+                                href={certificate.url} 
+                                target="_blank"
+                                className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                    <ExternalLink size={20} />
+                                </a>
                             </div>
                         </div>
                     ))}
