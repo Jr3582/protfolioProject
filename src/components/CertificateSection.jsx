@@ -25,6 +25,15 @@ const certificates = [
         exp: "N\A",
         image: "/certificates/angularCert.jpg",
         url: "https://www.udemy.com/certificate/UC-5f5608c7-5d39-40db-a29e-d9445ffc9e77/"
+    },
+    {
+        id: 4,
+        title: "TryHackMe Pre-Security Certificate",
+        doa: "10/08/2025",
+        exp: "N\A",
+        image: "/certificates/tryHackMeCert.jpg",
+        code: "THM-LT3NTPHQME",
+        url: "https://tryhackme.com/certificate/THM-LT3NTPHQME"
     }
 ];
 
