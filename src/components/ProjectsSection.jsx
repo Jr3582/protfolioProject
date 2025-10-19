@@ -14,7 +14,7 @@ const projects = [
     {
         id: 2,
         title: "StockHacks",
-        description: "An interactive stock analysis web application deployed on Vercel, integrated with Inngest for background task automation, and powered by a MongoDB database.",
+        description: "An interactive stock analysis web application deployed on Vercel, integrated with Inngest, and Google's Gemini for background task automation, and powered by a MongoDB database.",
         image: "/projects/dashboard.png",
         tags: ["MangoDB", "Full-stack", "Inngest"],
         demoUrl: "https://stock-hacks.vercel.app/sign-in",
