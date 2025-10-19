@@ -13,12 +13,12 @@ const projects = [
     },
     {
         id: 2,
-        title: "Echo Fighters Game",
-        description: "Echo Fighters title page, the game was made using the Unity game engine, and developed over a 10-week period, and coded in C#. Collaborated with one other person.",
-        image: "/projects/EchoFighters.png",
-        tags: ["Unity", "C#", "Game"],
-        demoUrl: "https://jimbro0o0o.itch.io/echo-fighters",
-        githubUrl: "https://github.com/Jr3582/Echo-Fighters-CS342",
+        title: "StockHacks",
+        description: "An interactive stock analysis web application deployed on Vercel, integrated with Inngest for background task automation, and powered by a MongoDB database.",
+        image: "/projects/dashboard.png",
+        tags: ["MangoDB", "Full-stack", "Inngest"],
+        demoUrl: "https://stock-hacks.vercel.app/sign-in",
+        githubUrl: "https://github.com/Jr3582/StockHacks",
     },
     {
         id: 3,
