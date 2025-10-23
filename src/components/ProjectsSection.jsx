@@ -31,12 +31,12 @@ const projects = [
     },
     {
         id: 4,
-        title: "Llama Chat Bot",
-        description: "Hosted Llama chat bot using a LLM, built with react, vite, and TailwindCSS and hosted on Vercel",
-        image: "/projects/LlamachatBot.png",
-        tags: ["AI", "React", "Llama"],
-        demoUrl: "https://chat-bot-khaki-one.vercel.app/",
-        githubUrl: "https://github.com/Jr3582/chatBot",
+        title: "Nike E-Commerce Application",
+        description: "A Nike E-Commerce application that allows users to browse and purchase Nike products. Built with React and Next.js, featuring a sleek UI and seamless user experience.",
+        image: "/projects/nike-ecommerce-app.png",
+        tags: ["E-Commerce", "React", "Next.js"],
+        demoUrl: "https://nike-ecommerce-app-eight.vercel.app/sign-in",
+        githubUrl: "https://github.com/Jr3582/ecommerce-app",
     },
     {
         id: 5,
