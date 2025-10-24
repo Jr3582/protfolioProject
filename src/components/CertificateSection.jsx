@@ -40,7 +40,7 @@ const certificates = [
         title: "LinkedIn Learning Certificate of Completion",
         doa: "10/24/2025",
         exp: "N\A",
-        image: "/certificates/linkedinCert.jpg",
+        image: "/certificates/linkedinCert.png",
         url: "https://www.linkedin.com/learning/certificates/13909ed852187e6e297fb47fca5365bacef2c9a5f2ebf0414463c95488d7d95b?trk=share_certificate"
     }
 ];
