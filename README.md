@@ -17,7 +17,7 @@ Make sure you have the following installed before running the project:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
+git clone https://github.com/Jr3582/protfolioProject.git
 
 # Navigate into the project directory
 cd react-tailwind-portfolio
