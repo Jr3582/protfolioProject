@@ -4,12 +4,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Vanguard Communication Clearing House",
-        description: "Landing page for Vanguard Communication Clearing House, made with React, Node.js, Material UI, PostgreSQL, and Python. (Github not available)",
-        image: "/projects/vanguardComClearingHouse1.png",
-        tags: ["Material UI", "React", "Node.js"],
-        demoUrl: "https://1513041.mediaspace.kaltura.com/id/1_fp9vkw3s",
-        githubUrl: "NotFound",
+        title: "Track Tasks",
+        description: "A full-stack Kanban-style task management app for organizing projects, assigning ownership, and tracking work from To Do to Done.",
+        image: "/projects/TrackTasks.png",
+        tags: ["Angular", ".NET", "PostgresSQL"],
+        demoUrl: "https://track-tasks-nine.vercel.app/",
+        githubUrl: "https://github.com/Jr3582/track-tasks",
     },
     {
         id: 2,
@@ -22,15 +22,6 @@ const projects = [
     },
     {
         id: 3,
-        title: "ChasingPRs",
-        description: "The landing page for ChasingPRs. ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost.",
-        image: "/projects/chasingPRs.png",
-        tags: ["React", "TailwindCSS", "Math"],
-        demoUrl: "https://chasing-prs.vercel.app/",
-        githubUrl: "https://github.com/Jr3582/ChasingPRs",
-    },
-    {
-        id: 4,
         title: "Nike E-Commerce Application",
         description: "A Nike E-Commerce application that allows users to browse and purchase Nike products. Built with React and Next.js, featuring a sleek UI and seamless user experience.",
         image: "/projects/nike-ecommerce-app.png",
@@ -39,7 +30,7 @@ const projects = [
         githubUrl: "https://github.com/Jr3582/ecommerce-app",
     },
     {
-        id: 5,
+        id: 4,
         title: "Fading Light",
         description: "The tile screen for Fading Light, a 2D Unity platformer game, collaborated with 2 other individuals, deployed on to a AWS S3 Bucket",
         image: "/projects/FadingLight.png",
@@ -48,15 +39,23 @@ const projects = [
         githubUrl: "https://github.com/Jr3582/TheElevator",
     },
     {
+        id: 5,
+        title: "ChasingPRs",
+        description: "The landing page for ChasingPRs. ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost.",
+        image: "/projects/chasingPRs.png",
+        tags: ["React", "TailwindCSS", "Math"],
+        demoUrl: "https://chasing-prs.vercel.app/",
+        githubUrl: "https://github.com/Jr3582/ChasingPRs",
+    },
+    {
         id: 6,
-        title: "2D Shooter",
-        description: "The landing page for 2D top down shooter. Collaborated with 3 other individuals, deployed on Fly.io and supports multiplayer functionality.",
-        image: "/projects/2dShooterLandingPage.png",
-        tags: ["Game", "Phaser", "Collaboration"],
-        demoUrl: "https://cs375shooterproject.fly.dev/",
-        githubUrl: "https://github.com/Jr3582/CS375_Project",
-    }
-    
+        title: "Vanguard Communication Clearing House",
+        description: "Landing page for Vanguard Communication Clearing House, made with React, Node.js, Material UI, PostgreSQL, and Python.",
+        image: "/projects/vanguardComClearingHouse1.png",
+        tags: ["Material UI", "React", "Node.js"],
+        demoUrl: "https://1513041.mediaspace.kaltura.com/id/1_fp9vkw3s",
+        githubUrl: "https://github.com/Jr3582/CommClearingHouse",
+    },
 ]
 
 export const ProjectSection = () => {
@@ -75,7 +74,7 @@ export const ProjectSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
-                        <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+                        <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col h-full">
                             <div className="h-48 overflow-hidden">
                                 {/* Project Image*/}
                                 <img 
@@ -86,7 +85,7 @@ export const ProjectSection = () => {
                             </div>
 
                             {/* Project Tags*/}
-                            <div className="p-6">
+                            <div className="p-6 flex-1 flex flex-col">
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tags.map((tag) => (
                                         <span className="px-2 py-1 text-xs font-medium border rounded-full bg-primary/30 text-secondary-foreground">
@@ -97,25 +96,27 @@ export const ProjectSection = () => {
 
                             {/* Project Name*/}
                             <h3 className="text-xl font-semibold mb-1"> {project.title}</h3>
-                            <p className="text-muted-foreground text-sm mb-4">
-                                {project.description}
-                            </p>
-                            <div className="flex justify-between items-center">
-                                <div className="flex space-x-3">
-                                    <a 
-                                    href={project.demoUrl} 
-                                    target="_blank"
-                                    className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                        <ExternalLink size={20} />
-                                    </a>
-                                    <a 
-                                    href={project.githubUrl}
-                                    target="_blank"
-                                    className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                        <Github size={20}/>
-                                    </a>
+                            <div className="flex flex-col justify-between w-full h-full">
+                                <p className="text-muted-foreground text-sm mb-4">
+                                    {project.description}
+                                </p>
+                                <div className="flex justify-between items-center">
+                                    <div className="flex space-x-3">
+                                        <a 
+                                        href={project.demoUrl} 
+                                        target="_blank"
+                                        className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                            <ExternalLink size={20} />
+                                        </a>
+                                        <a 
+                                        href={project.githubUrl}
+                                        target="_blank"
+                                        className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                            <Github size={20}/>
+                                        </a>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                     ))}

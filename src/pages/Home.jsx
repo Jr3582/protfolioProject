@@ -29,13 +29,14 @@ export const Home = () => {
                 {/* About Me Section */}
                 <AboutSection></AboutSection>
 
+                {/* Skills Section */}
+                <ProjectSection></ProjectSection>
+
+                {/* Certificate Section */}
                 <CertificateSection></CertificateSection>
 
                 {/* Skills Section */}
                 <SkillsSection></SkillsSection>
-
-                {/* Skills Section */}
-                <ProjectSection></ProjectSection>
 
                 {/* Contact Section */}
                 <ContactSection></ContactSection>
