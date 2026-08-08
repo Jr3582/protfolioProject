@@ -46,10 +46,18 @@ export const HeroSection = () => {
                     <span className="text-teritary1"> Cybersecurity </span>
                 </p>
 
-                <div className="pt-8 opacity-0 animate-fade-in-delay-4">
-                    <a href="#projects" className="cosmic-button">
-                        View My Work
-                    </a>
+                <div className="flex justify-center gap-8 flex-row">
+                    <div className="pt-8 opacity-0 animate-fade-in-delay-4">
+                        <a href="#projects" className="cosmic-button">
+                            View My Work
+                        </a>
+                    </div>
+
+                    <div className="pt-8 opacity-0 animate-fade-in-delay-4">
+                        <a href="/resume/Jimmy_Ren_Resume.pdf" className="cosmic-button2">
+                            View My Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
