@@ -13,6 +13,15 @@ const projects = [
     },
     {
         id: 2,
+        title: "Battle of Shanghai RAG Assistant",
+        description: "RAG-based Q&A system over historical documents with hybrid retrieval, cross-encoder reranking, and RAGAS-driven evaluation",
+        image: "/projects/shanghaiRag.png",
+        tags: ["RAG", "Python", "BM25"],
+        demoUrl: "https://shanghai-rag.streamlit.app/",
+        githubUrl: "https://github.com/Jr3582/shanghai-rag",
+    },
+    {
+        id: 3,
         title: "StockHacks",
         description: "An interactive stock analysis web application deployed on Vercel, integrated with Inngest, and Google's Gemini for background task automation, and powered by a MongoDB database.",
         image: "/projects/dashboard.png",
@@ -21,7 +30,7 @@ const projects = [
         githubUrl: "https://github.com/Jr3582/StockHacks",
     },
     {
-        id: 3,
+        id: 4,
         title: "Nike E-Commerce Application",
         description: "A Nike E-Commerce application that allows users to browse and purchase Nike products. Built with React and Next.js, featuring a sleek UI and seamless user experience.",
         image: "/projects/nike-ecommerce-app.png",
@@ -30,7 +39,7 @@ const projects = [
         githubUrl: "https://github.com/Jr3582/ecommerce-app",
     },
     {
-        id: 4,
+        id: 5,
         title: "Fading Light",
         description: "The tile screen for Fading Light, a 2D Unity platformer game, collaborated with 2 other individuals, deployed on to a AWS S3 Bucket",
         image: "/projects/FadingLight.png",
@@ -39,22 +48,13 @@ const projects = [
         githubUrl: "https://github.com/Jr3582/TheElevator",
     },
     {
-        id: 5,
+        id: 6,
         title: "ChasingPRs",
         description: "The landing page for ChasingPRs. ChasingPRs is a interactive fitness application that calculates your maximum PR for squat, bench, and deadlift using Epley's formula. The app also includes a way to determine a calorie goal for weight gain or weight lost.",
         image: "/projects/chasingPRs.png",
         tags: ["React", "TailwindCSS", "Math"],
         demoUrl: "https://chasing-prs.vercel.app/",
         githubUrl: "https://github.com/Jr3582/ChasingPRs",
-    },
-    {
-        id: 6,
-        title: "Vanguard Communication Clearing House",
-        description: "Landing page for Vanguard Communication Clearing House, made with React, Node.js, Material UI, PostgreSQL, and Python.",
-        image: "/projects/vanguardComClearingHouse1.png",
-        tags: ["Material UI", "React", "Node.js"],
-        demoUrl: "https://1513041.mediaspace.kaltura.com/id/1_fp9vkw3s",
-        githubUrl: "https://github.com/Jr3582/CommClearingHouse",
     },
 ]
 
